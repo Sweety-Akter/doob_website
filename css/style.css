@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Redressed', cursive;
+    font-family: 'Shippori Mincho B1', serif;
+    background-color: #ffff;
+}
+h2{
+    color: #314584;
+    font-family: 'Redressed', cursive;
+    text-transform: capitalize;
+    font-size: 46px;
+}
+
+/*===== navigation section =====*/
+.navbar{
+    box-shadow: 2px 2px 5px #314584;
+    background: rgba(0,0,0,0.2);
+    opacity: 0.9;
+}
+.navbar img{
+    background: none;
+}
+.collapse .contact_btn{
+    width: 130px;
+    height: 50px;
+    background: #fff;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+}
+.collapse .contact_btn .btn_contact{
+    padding: 12px 10px;
+    font-size: 14px;
+    color: #ff3946;
+}
+.collapse .contact_btn .btn_contact i{
+    margin-left: 4px;
+    font-size: 22px;
+}
+.nav-item .nav-link{
+    font-size: 20px;
+}
+
+/*===== home section =====*/
+#home h1{
+    color: #314584;
+    font-size: 65px;
+    font-weight: 600;
+    font-family: 'Redressed', cursive;
+}
+#home p{
+    font-size: 18px;
+}
+#home .btn-same{
+    width: 150px;
+}
+#home .btn-1{
+    background-color: #ff3946;
+    color: #fff;
+}
+#home .btn-2{
+    color: #314584;
+}
+#home .btn-2:hover{
+    background-color: #ff3946;
+    color: #fff;
+}
+
+/*====== service section =====*/
+
+#service .btn-service{
+    width: 150px;
+    background-color: #ff3946;
+    color: #fff;
+}
+#service .btn-service:hover{
+    opacity: .9;
+}
+#service .card{
+    border: 0;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+}
+#service .card-body img{
+    width: 50px;
+}
+#service .card-body h5{
+    color: #314584;
+    font-weight: 700;
+    font-size: 22px;
+}
+#service .card-body p{
+    font-size: 15px;
+    color: #314584;
+    line-height: 25px;
+}
+
+/*==== about section ====*/
+#about .arrows{
+    display: flex;
+}
+#about .oc{
+    color: #ff3946;
+}
+#about .arrow{
+    margin: 0px 10px;
+    font-size: 25px;
+    color: #ff3946;
+}
+
+/*==== portfolio section ====*/
+#portfolio .pr .pc{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+}
+#portfolio .para-2{
+    color: #ff3946;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+/*==== blog section ====*/
+#blog .para{
+    color: #ff3946; 
+    font-weight: 800;
+}
+#blog .blog-arrow i{
+    font-size: 22px;
+    font-weight: 800;
+}
+#blog .card-p{
+    font-size: 17px;
+}
+#blog .card{
+   background-color: #ff3946;
+   color: #fff;
+   border: none;
+}
+#blog .card-white{
+    border: none;
+    background: #fff;
+    color: #000;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: all .6s ease;
+}
+#blog .card-white:hover{
+    background: #ff3946;
+    color: #fff;
+}
+#blog .card-white i{
+    color: #ff3946;
+}
+
+/*==== contact section ====*/
+#contact p{
+    color: #ff3946;
+    font-weight: 800;
+}
+#contact input::placeholder,
+#contact textarea::placeholder{
+    color: #314584;
+}
+#contact .contact-form{
+    background-color: #f4fafe;
+    color: #314584;
+}
+#contact .btn{
+    border: none;
+    background: #ff3946;
+    color: #fff;
+}
+
+/*==== footer section ====*/
+#footer{
+    background: #314584;
+}
+#footer h2{
+    color: #ff3946;
+    font-size: 30px;
+}
+#footer .links ul{
+    margin: 0;
+    padding: 0;
+}
+#footer .links ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+}
+#footer .links ul li a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+#footer .link ul li a{
+    font-size: 30px;
+}
+
+
+
+
+
+@media screen and (max-width:890px){
+    h2{
+        font-size: 35px;
+    }
+    #home h1{
+        font-size: 45px;
+    }
+    #home p{
+        font-size: 15px;
+    }
+}
